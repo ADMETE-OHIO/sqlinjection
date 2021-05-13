@@ -35,11 +35,3 @@ def isSSN(ssn):
     if(len(ssn)==9):
        return true
     return false
-       
-connection = create_connection(".\\test.db")
-
-select_users = "SELECT * from EMPLOYEE"
-users = execute_read_query(connection, select_users)
-
-for user in users:
-    print(user) 
