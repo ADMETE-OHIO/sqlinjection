@@ -33,5 +33,5 @@ def execute_read_query(connection, query):
         
 def isSSN(ssn):
     if(len(ssn)==9):
-       return true
-    return false
+       return True
+    return False
